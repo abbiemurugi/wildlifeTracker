@@ -1,0 +1,43 @@
+<div class="container">
+
+    <div class="form">
+            <form action="/sighting/new" method="post">
+            <div class="form-group">
+                <label for="name">AnimalId</label>
+                <input id="animalid" name="animalid" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="location">Location:</label>
+                  <select id="location" name="location" class="form-control" type="text">
+                    <option value="Zone A">Zone A</option>
+                    <option value="Zone B">Zone B</option>
+                    <option value="Zone C">Zone C</option>
+                    <option value="Zone D">Zone D</option>
+                    <option value="Zone E">Zone E</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                <label for="name">Animal Name</label>
+                <input id="name" name="name" type="text" class="form-control">
+                </div>
+                <label for="endangered">Endangered</label>
+                <select id="endangered" class="form-control" name="endangered" type="text">
+                   <option value="yes">yes</option>
+                   <option value="no">no</option>
+                </select>
+                <label for="health">Animal Health</label>
+                <select id="health" class="form-control" name="health" type="text">
+                    <option value="ill">ill</option>
+                    <option value="okay">okay</option>
+                    <option value="healthy">healthy</option>
+                </select>
+                <label for="age">Animal Age</label>
+                 <select id="age" class="form-control" name="age" type="text">
+                      <option value="newborn">newborn</option>
+                      <option value="young">young</option>
+                      <option value="adult">adult</option>
+                 </select>
+              </div>
+              <button class="btn btn-info" type="submit">Add New Sighting</button>
+            </form>
+</div>
